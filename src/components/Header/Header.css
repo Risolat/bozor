@@ -1,0 +1,105 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.header{
+  background-color: #004471;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.header__top{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+  font-size: 12px;
+}
+.header__top-links{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__top-links img{
+  margin-right: 5px;
+}
+.header__top-links p {
+  margin-right: 3px;
+}
+.header__top-links a{
+  margin: 0 5px;
+  text-decoration: none;
+  color: #fff;
+}
+.header__nav{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-left: 30px;
+  border: none;
+}
+.header__nav-logo{
+  width: 275px;
+  height: 60px;
+}
+.header__nav-input-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 30px 0 60px;
+}
+.header__nav-input-box input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+.header__nav-input-box select {
+  padding: 15px 40px 15px 20px;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url('../../images/select.svg');
+	background-repeat: no-repeat, repeat;
+	background-position: right 1em top 50%, 0 0;
+  background-size: .65em auto, 100%;
+  background-color: #fdfdfd;
+}
+.search{
+  width: 50px;
+  height: 48px;
+  padding: 8px 15px;
+  background-color: #fdaf18;
+  cursor: pointer;
+}
+.header__nav span img {
+  width: 24px;
+  height: 24px; 
+  margin-right: 30px;
+}

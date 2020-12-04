@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" width="14" height="11">
+	<defs>
+		<image width="14" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALBAMAAAC9q6FRAAAAAXNSR0IB2cksfwAAAC1QTFRFAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyAURyWyrw7gAAAA90Uk5TESIARMzuqjOIVd3/u3dmeH/SFQAAAFpJREFUeJxjYFRSUnZNb2KYVaRUvXv3cYbZe5lu797dxCC1e8vq3buFGGbvBgElBi4QtUeJQTMaSO9UYlAE0U5KDEoyu3dvFVJieHF6925HJSUGXtetmUpKSgB2FiRgbFIOrAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="1">
+		<g id="footer">
+			<use id="" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

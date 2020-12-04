@@ -1,0 +1,109 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.xits-wrapper{
+  padding: 0 30px;
+}
+.xits{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+.xits__title{
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.xits hr {
+  width: 1000px;
+  margin-top: 8px;
+  color: #eee;
+  background-color: #eee;
+}
+.slider-img{
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.xit__link{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border: 1px solid #eee;
+  text-decoration: none;
+  color: #222;
+}
+.xit__img-box{
+  margin: 50px 0 50px 40px;
+  border-bottom: 1px solid #eee;
+}
+.xit__title{
+  padding: 20px 0 15px 20px;
+  font-size: 15px;
+}
+.xit__link hr{
+  width: 40px;
+  color: #fdaf18;
+  margin: 20px 20px 15px;
+  margin-top: 0;
+  background-color: #fdaf18;
+  border-color: #fdaf18;
+}
+.xit__link span {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.xit__price{
+  padding-left: 20px;
+  font-size: 18px;
+}
+.xit__link button img{
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+.xit__link button {
+  padding: 20px;
+  float: right;
+  border: none;
+  background-color: #fff;
+}
+.button{
+  padding: 3px 5px;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.xits__btn-prev{
+  margin-right: 5px;
+  border: 1px solid #eee;
+}
+.xits__btn-next{
+  background-color: #fdaf18;
+  border: 1px solid #fdaf18;
+}
+#xit-prev{
+  margin-right: 5px;
+  border: 1px solid #eee;
+}
+#xit-next{
+  background-color: #fdaf18;
+  border: 1px solid #fdaf18;
+}
