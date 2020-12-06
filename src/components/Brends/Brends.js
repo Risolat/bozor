@@ -37,7 +37,7 @@ class Brends extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 6,
             slidesToScroll: 3,
             infinite: true,
             dots: true,
@@ -46,7 +46,7 @@ class Brends extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 4,
             slidesToScroll: 2,
             initialSlide: 2,
           },
@@ -54,10 +54,17 @@ class Brends extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
+        {
+          breakpoint: 350,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        }
       ],
     }
     return (

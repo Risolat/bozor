@@ -50,3 +50,54 @@
   background-color: #fdaf18;
   border: 1px solid #fdaf18;
 }
+
+@media screen and (max-width: 1400px){
+  .brend hr{
+    width: 850px;
+  }
+}
+@media screen and (max-width: 1260px){
+  .brend hr{
+    width: 750px;
+  }
+}
+@media screen and (max-width: 1160px){
+  .brend hr{
+    width: 650px;
+  }
+}
+@media screen and (max-width: 1060px){
+  .brend hr{
+    width: 550px;
+  }
+}
+@media screen and (max-width: 960px){
+  .brend hr{
+    width: 450px;
+  }
+}
+@media screen and (max-width: 860px){
+  .brend hr{
+    width: 350px;
+  }
+}
+@media screen and (max-width: 760px){
+  .brend hr{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 660px){
+  .brend hr{
+    width: 150px;
+  }
+}
+@media screen and (max-width: 560px){
+  .brend hr{
+    display: none;
+  }
+}
+@media screen and (max-width: 520px){
+  .brend__text{
+    display: none;
+  }
+}

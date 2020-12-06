@@ -1,61 +1,23 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .site-navigation{
   background-color: lightblue;
 }
 .site-nav{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border: 1px solid #f1f1f1;
   border-left: none;
   border-right: none;
   background-color: #fcfcfc;
 }
-.site-nav__category-box{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 280px;
-  padding: 15px 20px;
-  margin-left: 30px;
-  background-color: #004471;
-  color: #fff;
-}
-.category__heading{
-  margin: 0;
-  font-weight: bold;
-  font-size: 20px;
-}
 .site-nav__list{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 1088px;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1430px;
   padding: 15px 0;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 16px 30px;
 }
 .site-nav__item{
   margin-left: 30px;
@@ -65,4 +27,30 @@
   font-size: 14px;
   color: #222;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1415px){
+  .site-nav__list{
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 560px){
+  .site-nav__list{
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+  }
+  .site-nav__item{
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 512px){
+  .site-nav__list{
+    flex-direction: column;
+    padding: 0;
+    border: none;
+  }
+  .site-nav__item{
+    padding: 15px 0;
+  }
 }

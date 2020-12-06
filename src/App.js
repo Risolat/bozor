@@ -29,9 +29,9 @@ function App() {
         <About />
         <Footer />
       </div>
-      <button className="app__container-btn">
+      {/* <button className="app__container-btn">
         <img src={sms} alt="sms" />
-      </button>
+      </button> */}
     </div>
   )
 }
