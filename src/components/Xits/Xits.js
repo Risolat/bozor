@@ -5,12 +5,15 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore"
 import NavigateNextIcon from "@material-ui/icons/NavigateNext"
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 import first from "../../images/xits/first.svg"
 import second from "../../images/xits/second.svg"
 import third from "../../images/xits/third.svg"
 import fourth from "../../images/xits/fourth.svg"
 import fifth from "../../images/xits/fifth.svg"
-import plus from "../../images/xits/plus.svg"
+import plus from "../../images/plus.svg"
+import minus from "../../images/minus.svg"
 
 class Xits extends Component {
   constructor(props) {
@@ -34,20 +37,37 @@ class Xits extends Component {
       initialSlide: 0,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1335,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 4,
+            slidesToScroll: 1,
             infinite: true,
             dots: true,
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: false,
+          },
+        },
+        {
+          breakpoint: 820,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+          },
+        },
+        {
+          breakpoint: 550,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
           },
         },
         {
@@ -83,11 +103,17 @@ class Xits extends Component {
             <hr />
             <p className="xit__price">
               {" "}
-              <span>2.800.000</span> 2.500.000 сўм
+              <span className="xit__price-old">2.800.000</span> 2.500.000 сўм
             </p>
-            <button>
-              <img src={plus} alt="plus" />
+            <div className="xit__btn-actions">
+              <button className="xit__btn-minus">
+                <RemoveIcon className="minus" />
+              </button>
+              <span className="xit__counter">0</span>
+            <button className="xit__btn-plus">
+              <AddIcon className="plus"/>
             </button>
+            </div>
           </a>
           <a href="#" className="xit__link">
             <div className="xit__img-box">
@@ -96,9 +122,15 @@ class Xits extends Component {
             <h3 className="xit__title">Кондиционер Gree 156</h3>
             <hr />
             <p className="xit__price">1.595.000 сўм</p>
-            <button>
-              <img src={plus} alt="plus" />
+            <div className="xit__btn-actions">
+              <button className="xit__btn-minus">
+                <RemoveIcon className="minus" />
+              </button>
+              <span className="xit__counter">0</span>
+            <button className="xit__btn-plus">
+              <AddIcon className="plus"/>
             </button>
+            </div>
           </a>
           <a href="#" className="xit__link">
             <div className="xit__img-box">
@@ -107,9 +139,15 @@ class Xits extends Component {
             <h3 className="xit__title">Телевизор Samsung 54 диагональ</h3>
             <hr />
             <p className="xit__price">2.500.000 сўм</p>
-            <button>
-              <img src={plus} alt="plus" />
+            <div className="xit__btn-actions">
+              <button className="xit__btn-minus">
+                <RemoveIcon className="minus" />
+              </button>
+              <span className="xit__counter">0</span>
+            <button className="xit__btn-plus">
+              <AddIcon className="plus"/>
             </button>
+            </div>
           </a>
           <a href="#" className="xit__link">
             <div className="xit__img-box">
@@ -118,9 +156,15 @@ class Xits extends Component {
             <h3 className="xit__title">Galaxy S8 Smartphone</h3>
             <hr />
             <p className="xit__price">1.595.000 сўм</p>
-            <button>
-              <img src={plus} alt="plus" />
+            <div className="xit__btn-actions">
+              <button className="xit__btn-minus">
+                <RemoveIcon className="minus" />
+              </button>
+              <span className="xit__counter">0</span>
+            <button className="xit__btn-plus">
+              <AddIcon className="plus"/>
             </button>
+            </div>
           </a>
           <a href="#" className="xit__link">
             <div className="xit__img-box">
@@ -129,9 +173,15 @@ class Xits extends Component {
             <h3 className="xit__title">Кондиционер LG 854</h3>
             <hr />
             <p className="xit__price">2.500.000 сўм</p>
-            <button>
-              <img src={plus} alt="plus" />
+            <div className="xit__btn-actions">
+              <button className="xit__btn-minus">
+                <RemoveIcon className="minus" />
+              </button>
+              <span className="xit__counter">0</span>
+            <button className="xit__btn-plus">
+              <AddIcon className="plus"/>
             </button>
+            </div>
           </a>
           <a href="#" className="xit__link">
             <div className="xit__img-box">
@@ -143,9 +193,15 @@ class Xits extends Component {
               {" "}
               <span>2.800.000</span> 2.500.000 сўм
             </p>
-            <button>
-              <img src={plus} alt="plus" />
+            <div className="xit__btn-actions">
+              <button className="xit__btn-minus">
+                <RemoveIcon className="minus" />
+              </button>
+              <span className="xit__counter">0</span>
+            <button className="xit__btn-plus">
+              <AddIcon className="plus"/>
             </button>
+            </div>
           </a>
         </Slider>
       </div>
